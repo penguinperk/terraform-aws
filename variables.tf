@@ -27,10 +27,10 @@ variable "environment_tag" {
   default     = "Production"
 }
 variable "profile" {
-  
+
   default = "default"
 }
 variable "region" {
-  
-  profile = "us-east-1"
+
+  default = "us-east-1"
 }
