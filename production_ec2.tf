@@ -12,6 +12,7 @@ resource "aws_instance" "testInstance" {
   tags = {
     Environment = var.environment_tag
     Name        = "terraform_Server1"
+    Version     = "1"
   }
 }
 
