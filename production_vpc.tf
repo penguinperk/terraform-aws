@@ -62,4 +62,5 @@ resource "aws_security_group" "sg_22" {
   tags = {
     Environment = var.environment_tag
   }
-	#}
+}
+#
